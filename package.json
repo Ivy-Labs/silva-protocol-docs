@@ -1,0 +1,37 @@
+{
+  "name": "silva-protocol-docs",
+  "version": "1.0.0",
+  "description": "--- description: A FaaS protocol for scalability and interoperability issues of Ethereum. cover: .gitbook/assets/Frame.png coverY: 0 ---",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "gitbook-plugin-atoc": "^1.0.3",
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-code": "^0.1.0",
+    "gitbook-plugin-favicon": "^0.0.2",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-image-captions": "^3.1.0",
+    "gitbook-plugin-theme-comscore": "^0.0.3",
+    "slate-no-empty": "^0.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "scripts": {
+    "build": "gitbook build",
+    "deploy": "gh-pages -d _book"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silva-Protocol/silva-protocol-docs.git"
+  },
+  "author": "Emo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Silva-Protocol/silva-protocol-docs/issues"
+  },
+  "homepage": "https://github.com/Silva-Protocol/silva-protocol-docs/#readme"
+}

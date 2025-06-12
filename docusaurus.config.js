@@ -27,7 +27,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Silva Protocol', // Usually your GitHub org/user name.
+  organizationName: 'Silva-Protocol', // Usually your GitHub org/user name.
   projectName: 'silva-protocol-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',

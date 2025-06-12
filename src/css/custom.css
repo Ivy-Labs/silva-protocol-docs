@@ -1,0 +1,28 @@
+/* src/css/custom.css */
+:root {
+  --ifm-color-primary: #0c6cf2;
+  --ifm-color-primary-dark: #0b60d7;
+  --ifm-color-primary-darker: #0a56c0;
+  --ifm-color-primary-light: #277ef4;
+  --ifm-color-primary-lighter: #4e96f6;
+  --ifm-font-family-base: 'Inter', sans-serif;
+  --ifm-code-font-size: 95%;
+}
+
+body {
+  background-color: #fafbfc;
+}
+
+.navbar__title {
+  font-weight: 600;
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.footer {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}

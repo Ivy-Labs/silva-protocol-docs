@@ -1,4 +1,4 @@
-# Relay of CoF (Certificate of Finality) & OSC (Omnichain State Commitment
+# Relay of CoF & OSC
 
 Solving the verification aspect of interoperability is only part of the challenge. Another key issue in achieving interoperability is how to **enable the destination chain to perceive the state of the source chain**, or more specifically, how to **reliably relay the finalized state of the source chain to the destination chain**.
 

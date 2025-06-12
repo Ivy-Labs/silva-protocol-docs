@@ -7,12 +7,7 @@ Based on the type of proof process, Silva categorizes fraud proofs into two type
 * **Deterministic**: The fraud proof provided by the reporter can directly and unequivocally prove that malicious behavior has occurred.  
 * **Disputable**: The reporter and the accused must engage in an interactive dispute process on Ethereum, following a predefined set of rules, to determine whether the reported malicious behavior is valid.
 
-<div style="text-align: left;">
-    <figure style="display: inline-block; margin: 0;">
-        <img src="../assets/FraudProof&Slashing.jpg" alt="FraudProof&Slashing" style="width: 100%; max-width: 800px; height: auto;">
-        <figcaption style="text-align: center; max-width: 1000px; font-weight: bold; font-size: 14px; color: #555;">Fraud Proof & Slashing</figcaption>
-    </figure>
-</div>
+![Fraud Proof & Slashing](../../static/img/FraudProof&Slashing.jpg)
 
 Based on the above fraud proof mechanism, we can slash for the following malicious behaviors:
 

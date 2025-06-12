@@ -1,11 +1,6 @@
 # The Partition Framework and 1-Round Voting Strategy in Fast Finality Layer
 
-<div style="text-align: left;">
-    <figure style="display: inline-block; margin: 0;">
-        <img src="../assets/ParitionFramework.jpg" alt="ParitionFramework" style="width: 100%; max-width: 800px; height: auto;">
-        <figcaption style="text-align: center; max-width: 1000px; font-weight: bold; font-size: 14px; color: #555;">Parition Framework</figcaption>
-    </figure>
-</div>
+![Parition Framework](../../static/img/ParitionFramework.jpg)
 
 To accelerate offchain finality confirmation for rollup chain states as much as possible, Silva Protocol introduces two key optimizations at the **Fast Finality Layer**:
 

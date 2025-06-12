@@ -6,12 +6,7 @@ When handling cross-chain events, there is a special case: Main Chain → Rollup
 2. The main chain packages and executes the transaction.  
 3. The sequencer of rollup chain parses the main chain block and directly sequences and executes any *Main Chain → Rollup Chain transactions* related to itself.
 
-<div style="text-align: left;">
-    <figure style="display: inline-block; margin: 0;">
-        <img src="../assets/CrossChainTxFlow1.jpg" alt="CrossChainTxFlow1" style="width: 100%; max-width: 800px; height: auto;">
-        <figcaption style="text-align: center; max-width: 1000px; font-weight: bold; font-size: 14px; color: #555;">Cross Chain TX Flow From ETH to Rollups</figcaption>
-    </figure>
-</div>
+![Cross Chain TX Flow From ETH to Rollups](../../static/img/CrossChainTxFlow1.jpg)
 
 For other types of cross-chain transactions, the processing flow is as follows:
 
@@ -29,9 +24,4 @@ For other types of cross-chain transactions, the processing flow is as follows:
 1. The **relayer** waits for the Silva Network to construct a ***OSC (Omnichain State Commitment)*** and relays it to the destination chain.  
 2. The user constructs a **Merkle proof** for the cross-chain transaction based on the **commitment** in the *OSC* package and relays it to the destination chain. Upon verification, the cross-chain transaction is executed on the destination chain.
 
-<div style="text-align: left;">
-    <figure style="display: inline-block; margin: 0;">
-        <img src="../assets/CrossChainTxFlow2.jpg" alt="CrossChainTxFlow2" style="width: 100%; max-width: 800px; height: auto;">
-        <figcaption style="text-align: center; max-width: 1000px; font-weight: bold; font-size: 14px; color: #555;">Cross Chain TX Flow between Chains</figcaption>
-    </figure>
-</div>
+![Cross Chain TX Flow between Chains](../../static/img/CrossChainTxFlow2.jpg)

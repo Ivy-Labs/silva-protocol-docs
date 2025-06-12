@@ -1,11 +1,6 @@
-# TLPP (Three-Layers Processing Pipeline) & FOOF (Fast Objective Offchain Finality)
+# Three-Layers Processing Pipeline & Fast Objective Offchain Finality
 
-<div style="text-align: left;">
-    <figure style="display: inline-block; margin: 0;">
-        <img src="../assets/tlpp.jpg" alt="ThreeLayersProcessingPipeline" style="width: 100%; max-width: 800px; height: auto;">
-        <figcaption style="text-align: center; max-width: 1000px; font-weight: bold; font-size: 14px; color: #555;">Three Layers Processing Pipeline</figcaption>
-    </figure>
-</div>
+![Three Layers Processing Pipeline](../../static/img/tlpp.jpg)
 
 Silva Protocol supports loosely coupled integration with the sequencing and execution layers of rollup chains. Each rollup chain is required to propose a unique and deterministic block state at every block height and broadcast it to the Silva Network for finality confirmation. The Silva Network processes this through a three-layer architecture:
 

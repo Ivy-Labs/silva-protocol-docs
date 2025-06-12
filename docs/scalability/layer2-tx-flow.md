@@ -2,12 +2,7 @@
 
 The diagram below illustrates the detailed processing flow of a single transaction from the client to the Silva Network.
 
-<div style="text-align: left;">
-    <figure style="display: inline-block; margin: 0;">
-        <img src="../assets/L2TxFlow.jpg" alt="ThreeLayersProcessingPipeline" style="width: 100%; max-width: 800px; height: auto;">
-        <figcaption style="text-align: center; max-width: 1000px; font-weight: bold; font-size: 14px; color: #555;">Layer2 TX Flow</figcaption>
-    </figure>
-</div>
+![Layer2 TX Flow](../../static/img/L2TxFlow.jpg)
 
 Once a transaction is forwarded or submitted, it is packaged into a block by the **sequencing layer of the rollup chain**, while the **finality of the block state** is guaranteed by the **Silva Network**. The block state is finalized in the **Fast Finality Layer**, where it receives a **quorum certificate for state finality**, also referred to as a ***CoF (Certificate of Finality)***. This certificate enables **fast,** **objective, offchain finality confirmation** of the state, typically within seconds (\~1s).
 

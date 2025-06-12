@@ -12,12 +12,7 @@ Chains that interact with the Silva Network are divided into the following categ
 
 The diagram below illustrates how state information from various chains is confirmed and propagated throughout the system:
 
-<div style="text-align: left;">
-    <figure style="display: inline-block; margin: 0;">
-        <img src="../assets/SystemStructureOverview.jpg" alt="SystemStructure" style="width: 100%; max-width: 800px; height: auto;">
-        <figcaption style="text-align: center; max-width: 1000px; font-weight: bold; font-size: 14px; color: #555;">System Structure</figcaption>
-    </figure>
-</div>
+![System Structure](../../static/img/SystemStructureOverview.jpg)
 
 The Silva Network continuously issues ***CoF (Certificate of Finality)*** to integrated rollup chains, bridged chains, and the main chain. Based on the *CoF*, clients can quickly confirm the given block state has achieved finality. At the same time, because *CoFs* can be provable onchain across the network, any party can relay *CoFs* (including the associated states) to the destination chain to enable verifiable interoperability.
 

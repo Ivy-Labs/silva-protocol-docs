@@ -1,10 +1,9 @@
 ---
 description: Silva is a FaaS (Finality-as-a-service) Protocol for sloving scalability and interoperability issues of Ethereum.
-cover: assets/Frame.png
 coverY: 0
 ---
 
-# Introduce
+# Overview
 Silva is a **Finality-as-a-Service (FaaS)** protocol that provides fast and secure finality confirmation services for integrated rollup chains and bridged external chains.
 
 The essence of scalability and interoperability challenges lies in the global awareness of finalized blockchain states. Therefore, Silva Protocol builds a unified finality confirmation service that inherits Ethereum economic security. Chains connected to this service form a unified and provable communication channel. Through this channel, Silva enables both secure and fast finality confirmation for Ethereum scalability, and verifiable omnichain interoperability across the blockchain ecosystem.
